@@ -15,6 +15,8 @@ public class Hashset1 {
         System.out.println(fruits);
         System.out.println(Collections.reverseOrder());
         System.out.println(fruits.isEmpty());
+        fruits.remove("Banana");
+        System.out.println(fruits);
 
     }
 }
