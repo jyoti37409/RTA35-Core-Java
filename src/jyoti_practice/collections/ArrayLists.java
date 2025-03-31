@@ -17,7 +17,7 @@ public class ArrayLists {
         System.out.println("sorted in reversed order: " + stud);
 
 
-        System.out.println(stud);
+        System.out.println(stud.get(0)+ " retreiving by Index");
 
         System.out.println(stud.contains("millu"));
         System.out.println(stud.isEmpty());

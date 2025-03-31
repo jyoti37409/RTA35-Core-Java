@@ -17,7 +17,7 @@ public class LinkedList1 {
         fruits.addLast("Oranges");
         //System.out.println(fruits.get(0));
         Collections.sort(fruits);
-        System.out.println(fruits);
+        System.out.println(fruits.getFirst());
         System.out.println(fruits.get(3));
 
     }

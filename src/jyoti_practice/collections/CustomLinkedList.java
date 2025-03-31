@@ -29,7 +29,7 @@ public class CustomLinkedList {
             return;
         }
         while (currentHead!=null){
-            System.out.println(currentHead.data + "-->");
+            System.out.print(currentHead.data + "-->");
             currentHead = currentHead.next;
         }
         System.out.println("null");
